@@ -29,7 +29,6 @@ public class Book {
 
     @NotNull(message = "Year is required")
     @Positive(message = "Publication year must be a positive or zero value")
-    @JsonFormat(pattern = "yyyy")
     private String publicationYear;
 
     public Book(){}

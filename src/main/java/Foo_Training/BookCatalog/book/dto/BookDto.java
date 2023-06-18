@@ -13,4 +13,6 @@ public class BookDto {
     private String author;
 
     private String publicationYear;
+
+    public BookDto(){}
 }
